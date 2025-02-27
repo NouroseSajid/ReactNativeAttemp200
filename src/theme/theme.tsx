@@ -32,6 +32,13 @@ export const COLORS = {
     tabActive: '#2A6EF0',     // Match primary
     tabInactive: '#94A3B8',   // Cool gray
     headerBg: '#FFFFFF',      // Match surface
+
+    // Secondary properties
+    secondaryFill: '#E0F7FA', // Light cyan
+    secondaryStroke: '#B2EBF2', // Cyan
+    secondaryStrokeWidth: 2,
+    secondaryWidth: 100,
+    secondaryHeight: 50,
   },
   dark: {
     // Core colors
@@ -55,6 +62,13 @@ export const COLORS = {
     tabActive: '#4ECDC4',      // Match primary
     tabInactive: '#64748B',    // Medium gray
     headerBg: '#2D3748',       // Match surface
+
+    // Secondary properties
+    secondaryFill: '#004D40', // Dark teal
+    secondaryStroke: '#00796B', // Teal
+    secondaryStrokeWidth: 2,
+    secondaryWidth: 100,
+    secondaryHeight: 50,
   },
 };
 

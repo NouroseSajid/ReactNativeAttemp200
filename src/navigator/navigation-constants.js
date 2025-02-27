@@ -21,6 +21,13 @@ const ICON_FILL_UNFOCUSED = 'none';
 const ICON_STROKE_FOCUSED = 'black';
 const ICON_STROKE_UNFOCUSED = 'gray';
 const ICON_STROKE_WIDTH = 5;
+const ICON_SECONDARY_FILL_FOCUSED = 'lightblue';
+const ICON_SECONDARY_FILL_UNFOCUSED = 'lightgray';
+const ICON_SECONDARY_STROKE_FOCUSED = 'darkblue';
+const ICON_SECONDARY_STROKE_UNFOCUSED = 'darkgray';
+const ICON_SECONDARY_STROKE_WIDTH = 2;
+const ICON_SECONDARY_WIDTH = 100;
+const ICON_SECONDARY_HEIGHT = 50;
 const TAB_BAR_ACTIVE_TINT_COLOR = 'pink';
 const TAB_BAR_INACTIVE_TINT_COLOR = 'darkpink';
 const TAB_BAR_HEIGHT_IOS = 90;
@@ -64,6 +71,17 @@ export const TAB_BAR_CONFIG = {
     unfocused: ICON_STROKE_UNFOCUSED,
   },
   strokeWidth: ICON_STROKE_WIDTH,
+  secondaryIconFill: {
+    focused: ICON_SECONDARY_FILL_FOCUSED,
+    unfocused: ICON_SECONDARY_FILL_UNFOCUSED,
+  },
+  secondaryIconStroke: {
+    focused: ICON_SECONDARY_STROKE_FOCUSED,
+    unfocused: ICON_SECONDARY_STROKE_UNFOCUSED,
+  },
+  secondaryStrokeWidth: ICON_SECONDARY_STROKE_WIDTH,
+  secondaryWidth: ICON_SECONDARY_WIDTH,
+  secondaryHeight: ICON_SECONDARY_HEIGHT,
 };
 
 export const STACK_SCREENS = [

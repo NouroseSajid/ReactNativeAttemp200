@@ -52,6 +52,7 @@ const BottomTabNavigation: React.FC = () => {
                 height={TAB_BAR_CONFIG.iconSize}
                 fill={focused ? colors.tabActive : 'transparent'}
                 stroke={focused ? colors.primary : colors.textSecondary}
+
                 strokeWidth={TAB_BAR_CONFIG.strokeWidth}
               />
             );
