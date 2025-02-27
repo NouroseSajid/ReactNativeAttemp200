@@ -32,7 +32,12 @@ function StackNavigator() {
   );
 
   return (
-    <Stack.Navigator initialRouteName="Home">
+    <Stack.Navigator 
+      initialRouteName="Home"
+      screenOptions={{
+        headerShown: true, // Default to visible headers for all screens in the stack
+      }}
+    >
       {/* Home Screen - Header Hidden */}
       {createScreen('Home', HomeScreen, 'home', 'Home', { 
         headerShown: false // Only hide header for Home screen
