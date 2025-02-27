@@ -1,6 +1,14 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 
+type IconProps = {
+  width?: number;
+  height?: number;
+  fill?: string;
+  stroke?: string;
+  strokeWidth?: number;
+};
+
 const ChatIcon: React.FC<IconProps> = ({
   width = 24,
   height = 24,

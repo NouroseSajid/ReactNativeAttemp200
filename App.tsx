@@ -3,6 +3,8 @@ import { SafeAreaView, StyleSheet, StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTabNavigation from './src/navigator/bottom-tab-navigator/BottomTabNavigation';
 import './src/i18n/config';
+import { ThemeProvider } from './src/theme/theme';
+
 
 const App: React.FC = () => {
   return (
@@ -13,9 +15,11 @@ const App: React.FC = () => {
         translucent={false}
       />
       <SafeAreaView style={styles.container}>
-        <NavigationContainer>
-          <BottomTabNavigation />
-        </NavigationContainer>
+        <ThemeProvider>
+          <NavigationContainer>
+            <BottomTabNavigation />
+          </NavigationContainer>
+        </ThemeProvider>
       </SafeAreaView>
     </>
   );

@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { View, Button, StyleSheet , } from 'react-native';
+import { View, Button, StyleSheet } from 'react-native';
 import i18next from 'i18next';
 import TodosList from './components/TodosList';
 import StackNavigator from '../../navigator/stack-navigator/StackNavigator';
-
-
+import { useTheme, dynamicStyles } from '../../theme/theme';
 
 const HomeScreen = ({ navigation }) => {
   const changeLanguage = (lng) => {
